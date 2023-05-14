@@ -30,8 +30,8 @@ const Skills = () => {
         </motion.div>
         <Skill name={'Nextjs'} x="-20vw" y="-15vw" />
         <Skill name={'CSS'} x="-5vw" y="-10vw" />
-        <Skill name={'React'} x="-20vw" y="2vw" />
-        <Skill name={'React Native'} x="-25vw" y="18vw" />
+
+        <Skill name={'React Native'} x="-20vw" y="2vw" />
         <Skill name={'Tailwind CSS'} x="18vw" y="18vw" />
         <Skill name={'Javascript'} x="20vw" y="6vw" />
         <Skill name={'Typescript'} x="0vw" y="12vw" />
