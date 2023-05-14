@@ -7,10 +7,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import imgAi from 'public/dv.png';
 import lightBulb from 'public/miscellaneous.svg';
+import resume from 'public/resume.pdf';
 export default function Home() {
   return (
     <>
       <main className="flex items-center relative text-dark w-full min-h-screen dark:text-light">
+        <Transition />
         <Container className={'pt-0 md:pt-16 sm:pt-8'}>
           <div className="flex items-center lg:flex-col dark:text-light justify-between w-full">
             <div className="w-1/2 md:w-full">
@@ -34,7 +36,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 space-x-3 lg:self-center">
                 <Link
-                  href="/my-resume.pdf"
+                  href={resume}
                   target={'_blank'}
                   download={true}
                   className="bg-dark text-light text-center p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-black transition-all flex dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:dark:border-light  duration-300 border border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base"
