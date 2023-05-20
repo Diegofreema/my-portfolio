@@ -11,6 +11,7 @@ import blog from 'public/blog.png';
 import photo from 'public/photo.png';
 import restaurant from 'public/restaurant.png';
 import website from 'public/website.png';
+import prompt from 'public/prompt.png';
 import { motion } from 'framer-motion';
 import Transition from '@/components/Transition';
 
@@ -133,14 +134,14 @@ const Project = () => {
           <div className="col-span-12">
             {' '}
             <Featured
-              title="Medium Clone"
-              link="https://medium-clone-ebon-rho.vercel.app/"
-              github={'https://github.com/Diegofreema/medium-clone'}
+              title="Prompter"
+              link="https://prompter-teal.vercel.app/"
+              github={'https://github.com/Diegofreema/prompter'}
               summary={
-                'This is a clone of medium , where i replicated the core functionalities of medium using Nextjs for the front and sanity for the backend.'
+                'This is a website where you can create , save and get beautiful AI prompts'
               }
-              img={medium}
-              type={'Blog'}
+              img={prompt}
+              type={'Prompt'}
             />
           </div>
           <div className="col-span-6 sm:col-span-12">
@@ -162,17 +163,16 @@ const Project = () => {
             />
           </div>
           <div className="col-span-12">
-            {' '}
             <Featured
-              title="FOTOGRAFI"
-              link="https://diegofreema.github.io/photography/"
-              github={'https://github.com/Diegofreema/photography'}
+              title="Medium Clone"
+              link="https://medium-clone-ebon-rho.vercel.app/"
+              github={'https://github.com/Diegofreema/medium-clone'}
               summary={
-                'This is a Portfolio website , which advertises the gallery of a photographer who sees the world in a unique way through her lenses.'
+                'This is a clone of medium , where i replicated the core functionalities of medium using Nextjs for the front and sanity for the backend.'
               }
-              img={photo}
-              type={'Portfolio'}
-            />
+              img={medium}
+              type={'Blog'}
+            />{' '}
           </div>
           <div className="col-span-6 sm:col-span-12">
             <Projects
@@ -189,6 +189,19 @@ const Project = () => {
               link="https://mywebsite-ka3wbmclz-diegofreema.vercel.app/"
               github={'https://github.com/Diegofreema/mywebsite'}
               img={website}
+              type={'Portfolio'}
+            />
+          </div>
+          <div className="col-span-12">
+            {' '}
+            <Featured
+              title="FOTOGRAFI"
+              link="https://diegofreema.github.io/photography/"
+              github={'https://github.com/Diegofreema/photography'}
+              summary={
+                'This is a Portfolio website , which advertises the gallery of a photographer who sees the world in a unique way through her lenses.'
+              }
+              img={photo}
               type={'Portfolio'}
             />
           </div>
