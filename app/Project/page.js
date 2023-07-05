@@ -11,6 +11,7 @@ import blog from 'public/blog.png';
 import photo from 'public/photo.png';
 import restaurant from 'public/restaurant.png';
 import website from 'public/website.png';
+import car from 'public/car.png';
 import prompt from 'public/prompt.png';
 import { motion } from 'framer-motion';
 import Transition from '@/components/Transition';
@@ -214,8 +215,8 @@ const Project = () => {
               summary={
                 'This is a  website that showcases all car brands around the world.'
               }
-              img={'/car.png'}
-              type={'Portfolio'}
+              img={car}
+              type={'Business'}
             />
           </div>
         </div>
