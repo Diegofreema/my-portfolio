@@ -205,6 +205,19 @@ const Project = () => {
               type={'Portfolio'}
             />
           </div>
+          <div className="col-span-12">
+            {' '}
+            <Featured
+              title="CarHub"
+              link="https://car-steel.vercel.app/"
+              github={'https://github.com/Diegofreema/car'}
+              summary={
+                'This is a  website that showcases all car brands around the world.'
+              }
+              img={'/car.png'}
+              type={'Portfolio'}
+            />
+          </div>
         </div>
       </Container>
     </main>
