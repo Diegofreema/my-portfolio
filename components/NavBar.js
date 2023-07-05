@@ -108,7 +108,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               whileHover={{ y: -2 }}
               className="w-6 "
-              href="/https://twitter.com/Diegofreeman78"
+              href="https://twitter.com/Diegofreeman78"
               target={'_blank'}
             >
               <TwitterIcon />
@@ -117,7 +117,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               whileHover={{ y: -2 }}
               className="w-6 "
-              href="/"
+              href="https://www.linkedin.com/in/diego-eke-557721280"
               target={'_blank'}
             >
               <LinkedInIcon />
@@ -126,7 +126,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               whileHover={{ y: -2 }}
               className="w-6 dark:bg-dark bg-light h-fit rounded-full "
-              href="/github.com/Diegofreema"
+              href="https://github.com/Diegofreema"
               target={'_blank'}
             >
               <GithubIcon className={'dark:fill-dark fill-light'} />
@@ -161,7 +161,7 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
             whileHover={{ y: -2 }}
             className="w-6 "
-            href="/https://twitter.com/Diegofreeman78"
+            href="https://twitter.com/Diegofreeman78"
             target={'_blank'}
           >
             <TwitterIcon />
@@ -170,7 +170,7 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
             whileHover={{ y: -2 }}
             className="w-6 "
-            href="/"
+            href="https://www.linkedin.com/in/diego-eke-557721280"
             target={'_blank'}
           >
             <LinkedInIcon />
@@ -179,7 +179,7 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
             whileHover={{ y: -2 }}
             className="w-6 "
-            href="/github.com/Diegofreema"
+            href="https://github.com/Diegofreema"
             target={'_blank'}
           >
             <GithubIcon />
